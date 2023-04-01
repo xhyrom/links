@@ -1,5 +1,4 @@
 # build output
-.vercel/
 dist/
 .output/
 

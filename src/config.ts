@@ -1,49 +1,58 @@
 export const SITE = {
-	title: 'Oliminator Odkazy',
-	description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat!',
-	url: 'https://odkazy.oliminator.net',
-	themeColor: '#f9f9f1',
+  title: "Hyro's Links",
+  description:
+    "Hyro's Links is a website that contains links to my social media accounts and other useful links.",
+  url: "https://links.xhyrom.me",
+  themeColor: "#fbc119",
 };
 
 export const OPEN_GRAPH = {
-	image: {
-		src: 'og_image.png',
-		alt: 'Odkazy text s tlačítkami',
-	},
-	twitter: 'oliminator34',
+  image: {
+    src: "og_image.png",
+    alt: "just a picture with buttons",
+  },
+  twitter: "hyrousek",
 };
 
 export const BUTTONS = [
-	{
-		name: 'Môj Minecraft Server',
-		background: 'bg-lendmark hover:bg-lendmark/80',
-		href: 'https://go.oliminator.net/lendmark',
-	},
-	{
-		name: 'TikTok',
-		background: 'bg-tiktok hover:bg-tiktok/80',
-		href: 'https://go.oliminator.net/titok',
-	},
-	{
-		name: 'YouTube',
-		background: 'bg-youtube hover:bg-youtube/80',
-		href: 'https://go.oliminator.net/youtube',
-	},
-
-	{
-		name: 'Instagram',
-		background: 'bg-instagram hover:bg-instagram/80',
-		href: 'https://go.oliminator.net/instagram',
-	},
-	{
-		name: 'GitHub',
-		background: 'bg-github hover:bg-github/80',
-		href: 'https://go.oliminator.net/github',
-	},
-	{
-		name: 'Discord',
-		background: 'bg-discord hover:bg-discord/80',
-		href: 'https://discord.lendmark.sk/',
-	},
-	,
+  {
+    name: "Personal (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/xHyroM",
+  },
+  {
+    name: "Hyro Blobs (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/Hyro-Blobs/blobs",
+  },
+  {
+    name: "Hyro's Forks (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/xhyrom-forks",
+  },
+  {
+    name: "Discord",
+    background: "bg-discord hover:bg-discord/80",
+    href: "https://discord.gg/kFPKmEKeMS",
+  },
+  {
+    name: "Instagram",
+    background: "bg-instagram hover:bg-instagram/80",
+    href: "https://instagram.com/hyro.dev",
+  },
+  {
+    name: "Twitter",
+    background: "bg-twitter hover:bg-twitter/80",
+    href: "https://twitter.com/hyrousek",
+  },
+  {
+    name: "Chess",
+    background: "bg-chess hover:bg-chess/80",
+    href: "https://www.chess.com/member/Hyriik",
+  },
+  {
+    name: "Reddit",
+    background: "bg-reddit hover:bg-reddit/80",
+    href: "https://reddit.com/u/xHyroM",
+  },
 ];
