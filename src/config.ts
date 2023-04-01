@@ -1,7 +1,7 @@
 export const OPEN_GRAPH = {
   image: {
-    src: "og_image.png",
-    alt: "just a picture with buttons",
+    src: "/og_image.png",
+    alt: "just a picture with my profile picture",
   },
   twitter: "hyrousek",
 };
