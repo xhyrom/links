@@ -66,4 +66,13 @@ export const SITE = {
       url: button.href,
     })),
   },
+  author: {
+    name: "xHyroM",
+    url: "https://xhyrom.me",
+  },
+  originalAuthor: {
+    name: "oliminator",
+    url: "https://github.com/OLIMINATOR",
+  },
+  sourceCode: "https://github.com/xHyroM/links",
 };

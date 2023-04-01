@@ -66,6 +66,7 @@ module.exports = {
       },
       backgroundImage: {
         primaryDotted: "radial-gradient(#E6E6D1 1px, #F9F9F1 1px)",
+        primaryDottedFooter: "radial-gradient(#D5D5B8 1px, #ECECE2 1px)",
       },
       backgroundSize: {
         primaryDottedSize: "15px 15px",

@@ -1,6 +1,8 @@
 ---
 import HeadCommon from "../components/HeadCommon.astro";
 import HeadSEO from "../components/HeadSEO.astro";
+
+import { SITE } from "../config";
 ---
 
 <!DOCTYPE html>
@@ -11,5 +13,41 @@ import HeadSEO from "../components/HeadSEO.astro";
   </head>
   <body class="overflow-x-hidden bg-primaryDotted bg-primaryDottedSize">
     <slot />
+
+    <!-- make footer with tailwind with View Source text -->
+    <footer
+      class="flex h-24 w-full flex-col items-center justify-center bg-primaryDottedFooter bg-primaryDottedSize"
+    >
+      <p class="text-primary text-sm">
+        Made with ❤️ by
+        <a
+          class="text-primary hover:text-primaryLight font-bold"
+          href={SITE.author.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @{SITE.author.name}
+        </a>
+        and original author
+        <a
+          class="text-primary hover:text-primaryLight font-bold"
+          href={SITE.originalAuthor.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @{SITE.originalAuthor.name}
+        </a>
+      </p>
+      <p class="text-primary text-sm">
+        <a
+          class="text-primary hover:text-primaryLight font-bold"
+          href={SITE.sourceCode}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Source
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
