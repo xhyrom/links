@@ -14,7 +14,6 @@
     "@astrojs/image": "^0.16.4",
     "@astrojs/sitemap": "^1.2.1",
     "@astrojs/tailwind": "^3.1.1",
-    "@astrojs/vercel": "^2.4.0",
     "astro": "^2.1.9",
     "astro-compress": "^1.1.35",
     "astro-robots-txt": "^0.4.1",
