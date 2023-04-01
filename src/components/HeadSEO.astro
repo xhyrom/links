@@ -11,7 +11,6 @@ import { SITE, OPEN_GRAPH } from "../config";
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={SITE.url} />
-<meta property="og:site_name" content={SITE.title} />
 <meta property="og:title" content={SITE.title} />
 <meta property="og:description" content={SITE.description} />
 <meta property="og:image" content={OPEN_GRAPH.image.src} />
@@ -27,3 +26,6 @@ import { SITE, OPEN_GRAPH } from "../config";
 <meta name="twitter:image:alt" content={OPEN_GRAPH.image.alt} />
 
 <meta name="theme-color" content={SITE.themeColor} />
+
+<script type="application/ld+json" set:html={JSON.stringify(SITE.schema)}
+></script>

@@ -1,11 +1,3 @@
-export const SITE = {
-  title: "Hyro's Links",
-  description:
-    "Hyro's Links is a website that contains links to my social media accounts and other useful links.",
-  url: "https://links.xhyrom.me",
-  themeColor: "#fbc119",
-};
-
 export const OPEN_GRAPH = {
   image: {
     src: "og_image.png",
@@ -56,3 +48,22 @@ export const BUTTONS = [
     href: "https://reddit.com/u/xHyroM",
   },
 ];
+
+export const SITE = {
+  title: "Hyro's Links",
+  description:
+    "Hyro's Links is a website that contains links to my social media accounts and other useful links.",
+  url: "https://links.xhyrom.me",
+  themeColor: "#fbc119",
+  schema: {
+    "@context": "https://schema.org/",
+    "@type": "ItemList",
+    name: "Redirects",
+    itemListElement: BUTTONS.map((button, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: button.name,
+      url: button.href,
+    })),
+  },
+};
