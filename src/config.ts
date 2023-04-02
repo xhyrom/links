@@ -53,7 +53,7 @@ export const SITE = {
   title: "Hyro's Links",
   description:
     "Hyro's Links is a website that contains links to my social media accounts and other useful links.",
-  url: "https://links.xhyrom.me",
+  url: "https://links.xhyrom.dev",
   themeColor: "#fbc119",
   schema: {
     "@context": "https://schema.org/",
