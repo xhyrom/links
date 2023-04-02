@@ -68,7 +68,7 @@ export const SITE = {
   },
   author: {
     name: "xHyroM",
-    url: "https://xhyrom.me",
+    url: "https://xhyrom.dev",
   },
   originalAuthor: {
     name: "oliminator",
