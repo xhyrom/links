@@ -23,6 +23,16 @@ export const BUTTONS = [
     href: "https://github.com/xhyrom-forks",
   },
   {
+    name: "Hyro's Utils (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/xhyrom-utils",
+  },
+  {
+    name: "Hyro's Archive (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/xhyrom-archive",
+  },
+  {
     name: "Discord",
     background: "bg-discord hover:bg-discord/80",
     href: "https://discord.gg/kFPKmEKeMS",
