@@ -56,6 +56,7 @@ module.exports = {
         wikipedia: "#000000",
         youtube: "#ff0000",
         // custom services
+        kofi: "#e0293e",
         chess: "#5e8949",
         // ^ custom services
         transparent: "transparent",

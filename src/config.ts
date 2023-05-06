@@ -48,6 +48,11 @@ export const BUTTONS = [
     href: "https://twitter.com/hyrousek",
   },
   {
+    name: "Ko-fi",
+    background: "bg-kofi hover:bg-kofi/80",
+    href: "https://ko-fi.com/hyro",
+  },
+  {
     name: "Chess",
     background: "bg-chess hover:bg-chess/80",
     href: "https://www.chess.com/member/Hyriik",
