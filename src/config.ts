@@ -35,7 +35,7 @@ export const BUTTONS = [
   {
     name: "Discord",
     background: "bg-discord hover:bg-discord/80",
-    href: "https://discord.gg/kFPKmEKeMS",
+    href: "https://s.xhyrom.dev/discord",
   },
   {
     name: "Instagram",
