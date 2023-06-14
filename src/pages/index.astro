@@ -2,17 +2,17 @@
 import Layout from "../layouts/Layout.astro";
 import Picture from "../components/Picture.astro";
 import Username from "../components/Username.astro";
-import Item from "../components/Item.astro";
+import Items from "../components/Items.astro";
 ---
 
 <Layout>
-  <main class="mx-auto mb-12 w-max">
+  <main class="mx-auto mb-12">
     <header class="mt-12 flex flex-col items-center">
       <Picture />
       <Username />
     </header>
-    <section class="mt-6 flex w-72 flex-col gap-y-6 md:w-80">
-      <Item />
+    <section class="mt-6 flex flex-wrap justify-center gap-6">
+      <Items />
     </section>
   </main>
 </Layout>

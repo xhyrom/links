@@ -1,0 +1,38 @@
+---
+import { SITE } from "../config";
+---
+
+<footer
+  class="flex h-24 w-full flex-col items-center justify-center bg-primaryDottedFooter bg-primaryDottedSize"
+>
+  <p class="text-primary text-sm">
+    Made with ❤️ by
+    <a
+      class="text-primary hover:text-primaryLight font-bold"
+      href={SITE.author.url}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      @{SITE.author.name}
+    </a>
+    and original author
+    <a
+      class="text-primary hover:text-primaryLight font-bold"
+      href={SITE.originalAuthor.url}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      @{SITE.originalAuthor.name}
+    </a>
+  </p>
+  <p class="text-primary text-sm">
+    <a
+      class="text-primary hover:text-primaryLight font-bold"
+      href={SITE.sourceCode}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Source
+    </a>
+  </p>
+</footer>
