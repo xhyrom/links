@@ -62,6 +62,11 @@ export const BUTTONS = [
     background: "bg-reddit hover:bg-reddit/80",
     href: "https://reddit.com/u/xHyroM",
   },
+  {
+    name: "Wakatime",
+    background: "bg-wakatime hover:bg-wakatime/80",
+    href: "https://wakatime.com/@xhyrom",
+  },
 ];
 
 export const SITE = {
