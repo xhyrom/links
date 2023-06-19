@@ -33,7 +33,12 @@ export const BUTTONS = [
     href: "https://github.com/xhyrom-archive",
   },
   {
-    name: "Discord",
+    name: "Discord (User)",
+    background: "bg-discord hover:bg-discord/80",
+    href: "https://s.xhyrom.dev/discord-user",
+  },
+  {
+    name: "Discord (Guild)",
     background: "bg-discord hover:bg-discord/80",
     href: "https://s.xhyrom.dev/discord",
   },
