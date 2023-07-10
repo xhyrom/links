@@ -43,6 +43,11 @@ export const BUTTONS = [
     href: "https://s.xhyrom.dev/discord",
   },
   {
+    name: "Ko-fi",
+    background: "bg-kofi hover:bg-kofi/80",
+    href: "https://ko-fi.com/hyro",
+  },
+  {
     name: "Instagram",
     background: "bg-instagram hover:bg-instagram/80",
     href: "https://instagram.com/hyro.dev",
@@ -53,9 +58,10 @@ export const BUTTONS = [
     href: "https://twitter.com/hyrousek",
   },
   {
-    name: "Ko-fi",
-    background: "bg-kofi hover:bg-kofi/80",
-    href: "https://ko-fi.com/hyro",
+    name: "Threads",
+    // todo: use bg-threads
+    background: "bg-github hover:bg-github/80",
+    href: "https://threads.net/@hyro.dev",
   },
   {
     name: "Chess",
