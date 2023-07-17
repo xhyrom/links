@@ -8,29 +8,14 @@ export const OPEN_GRAPH = {
 
 export const BUTTONS = [
   {
+    name: "Website",
+    background: "bg-website hover:bg-website/80",
+    href: "https://xhyrom.dev",
+  },
+  {
     name: "Personal (GitHub)",
     background: "bg-github hover:bg-github/80",
     href: "https://github.com/xHyroM",
-  },
-  {
-    name: "Hyro Blobs (GitHub)",
-    background: "bg-github hover:bg-github/80",
-    href: "https://github.com/Hyro-Blobs/blobs",
-  },
-  {
-    name: "Hyro's Forks (GitHub)",
-    background: "bg-github hover:bg-github/80",
-    href: "https://github.com/xhyrom-forks",
-  },
-  {
-    name: "Hyro's Utils (GitHub)",
-    background: "bg-github hover:bg-github/80",
-    href: "https://github.com/xhyrom-utils",
-  },
-  {
-    name: "Hyro's Archive (GitHub)",
-    background: "bg-github hover:bg-github/80",
-    href: "https://github.com/xhyrom-archive",
   },
   {
     name: "Discord (User)",
@@ -77,6 +62,26 @@ export const BUTTONS = [
     name: "Wakatime",
     background: "bg-wakatime hover:bg-wakatime/80",
     href: "https://wakatime.com/@xhyrom",
+  },
+  {
+    name: "Hyro Blobs (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/Hyro-Blobs/blobs",
+  },
+  {
+    name: "Hyro's Forks (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/xhyrom-forks",
+  },
+  {
+    name: "Hyro's Utils (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/xhyrom-utils",
+  },
+  {
+    name: "Hyro's Archive (GitHub)",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/xhyrom-archive",
   },
 ];
 

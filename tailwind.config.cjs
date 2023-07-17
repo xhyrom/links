@@ -59,6 +59,7 @@ module.exports = {
         kofi: "#e0293e",
         chess: "#5e8949",
         wakatime: "#4a4a4a",
+        website: "#e8b217",
         // ^ custom services
         transparent: "transparent",
         current: "currentColor",
