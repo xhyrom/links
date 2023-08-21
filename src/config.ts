@@ -30,7 +30,7 @@ export const BUTTONS = [
   {
     name: "Ko-fi",
     background: "bg-kofi hover:bg-kofi/80",
-    href: "https://ko-fi.com/hyro",
+    href: "https://ko-fi.com/xhyrom",
   },
   {
     name: "Instagram",
