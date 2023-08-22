@@ -13,7 +13,7 @@ export const BUTTONS = [
     href: "https://xhyrom.dev",
   },
   {
-    name: "Personal (GitHub)",
+    name: "GitHub (Personal)",
     background: "bg-github hover:bg-github/80",
     href: "https://github.com/xHyroM",
   },
@@ -64,7 +64,12 @@ export const BUTTONS = [
     href: "https://wakatime.com/@xhyrom",
   },
   {
-    name: "Hyro Blobs (GitHub)",
+    name: "Modrinth",
+    background: "bg-modrinth hover:bg-modrinth/80",
+    href: "https://modrinth.com/user/xHyroM"
+  },
+  {
+    name: "Hyro Blobs (GithUb)",
     background: "bg-github hover:bg-github/80",
     href: "https://github.com/Hyro-Blobs/blobs",
   },

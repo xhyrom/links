@@ -60,6 +60,7 @@ module.exports = {
         chess: "#5e8949",
         wakatime: "#4a4a4a",
         website: "#e8b217",
+        modrinth: "#1bd96a",
         // ^ custom services
         transparent: "transparent",
         current: "currentColor",
