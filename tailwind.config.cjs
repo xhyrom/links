@@ -57,6 +57,7 @@ module.exports = {
         youtube: "#ff0000",
         // custom services
         kofi: "#e0293e",
+        hackerone: "#1832FE",
         chess: "#5e8949",
         wakatime: "#4a4a4a",
         website: "#e8b217",

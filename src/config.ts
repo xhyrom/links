@@ -33,6 +33,11 @@ export const BUTTONS = [
     href: "https://ko-fi.com/xhyrom",
   },
   {
+    name: "HackerOne",
+    background: "bg-hackerone hover:bg-hackerone/80",
+    href: "https://hackerone.com/xhyrom",
+  },
+  {
     name: "Instagram",
     background: "bg-instagram hover:bg-instagram/80",
     href: "https://instagram.com/hyro.dev",
