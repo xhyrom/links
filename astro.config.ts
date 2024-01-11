@@ -4,6 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 import robotsTxt from "astro-robots-txt";
+import icon from "astro-icon";
 
 import { SITE } from "./src/config";
 
@@ -29,5 +30,6 @@ export default defineConfig({
       ],
       sitemap: true,
     }),
+    icon(),
   ],
 });
