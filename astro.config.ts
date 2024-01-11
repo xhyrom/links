@@ -11,18 +11,15 @@ import { SITE } from "./src/config";
 export default defineConfig({
   site: SITE.url,
   output: "static",
-  experimental: {
-    assets: true,
-  },
   integrations: [
     tailwind(),
     sitemap(),
     compress({
-      css: true,
-      html: true,
-      img: false,
-      js: true,
-      svg: false,
+      CSS: true,
+      HTML: true,
+      Image: true,
+      JavaScript: true,
+      SVG: false,
     }),
     robotsTxt({
       policy: [
