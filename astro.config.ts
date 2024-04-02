@@ -2,7 +2,6 @@ import { defineConfig } from "astro/config";
 
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import compress from "astro-compress";
 import robotsTxt from "astro-robots-txt";
 import icon from "astro-icon";
 
@@ -15,13 +14,6 @@ export default defineConfig({
   integrations: [
     tailwind(),
     sitemap(),
-    compress({
-      CSS: true,
-      HTML: true,
-      Image: true,
-      JavaScript: true,
-      SVG: false,
-    }),
     robotsTxt({
       policy: [
         {
@@ -30,6 +22,8 @@ export default defineConfig({
       ],
       sitemap: true,
     }),
-    icon(),
+    icon({
+      iconDir: "src/assets/icons",
+    }),
   ],
 });

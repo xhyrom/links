@@ -62,6 +62,7 @@ module.exports = {
         wakatime: "#4a4a4a",
         website: "#e8b217",
         modrinth: "#1bd96a",
+        gerlachsnezka: "#e84646",
         // ^ custom services
         transparent: "transparent",
         current: "currentColor",
