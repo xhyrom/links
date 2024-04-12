@@ -20,7 +20,7 @@
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/mingcute": "^1.1.17",
     "@iconify-json/simple-icons": "^1.1.97",
-    "@playform/compress-astro": "^0.0.2",
+    "@playform/compress": "^0.0.3",
     "astro": "^4.5.13",
     "astro-icon": "^1.1.0",
     "astro-robots-txt": "^1.0.0",
