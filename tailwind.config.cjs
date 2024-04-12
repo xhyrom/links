@@ -63,6 +63,7 @@ module.exports = {
         website: "#e8b217",
         modrinth: "#1bd96a",
         gerlachsnezka: "#e84646",
+        minecraft: "#6F4E37",
         // ^ custom services
         transparent: "transparent",
         current: "currentColor",

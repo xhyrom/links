@@ -93,6 +93,12 @@ export const BUTTONS = [
     icon: "gerlachsnezka",
   },
   {
+    name: "Minecraft Mappings",
+    background: "bg-minecraft hover:bg-minecraft/80",
+    href: "https://mappings.xhyrom.dev/",
+    icon: "mdi:minecraft",
+  },
+  {
     name: "Hyro Blobs",
     background: "bg-github hover:bg-github/80",
     href: "https://github.com/Hyro-Blobs/blobs",
