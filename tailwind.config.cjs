@@ -56,6 +56,7 @@ module.exports = {
         wikipedia: "#000000",
         youtube: "#ff0000",
         // custom services
+        sourcehut: "#666666",
         kofi: "#e0293e",
         hackerone: "#1832FE",
         chess: "#5e8949",

@@ -20,6 +20,12 @@ export const BUTTONS = [
     icon: "mdi:github",
   },
   {
+    name: "SourceHut",
+    background: "bg-sourcehut hover:bg-sourcehut/80",
+    href: "https://sr.ht/~hyro/",
+    icon: "simple-icons:sourcehut",
+  },
+  {
     name: "User",
     background: "bg-discord hover:bg-discord/80",
     href: "https://s.xhyrom.dev/discord-user",
