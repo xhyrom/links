@@ -63,6 +63,7 @@ module.exports = {
         wakatime: "#4a4a4a",
         website: "#e8b217",
         modrinth: "#1bd96a",
+        printables: "#eb6f40",
         gerlachsnezka: "#e84646",
         minecraft: "#6F4E37",
         // ^ custom services

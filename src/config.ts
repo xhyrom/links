@@ -93,6 +93,12 @@ export const BUTTONS = [
     icon: "simple-icons:modrinth",
   },
   {
+    name: "Printables",
+    background: "bg-printables hover:bg-printables/80",
+    href: "https://www.printables.com/@xhyrom_2962034",
+    icon: "simple-icons:printables",
+  },
+  {
     name: "Gerlach Snežka",
     background: "bg-gerlachsnezka hover:bg-gerlachsnezka/80",
     href: "https://gerlachsnezka.github.io",
